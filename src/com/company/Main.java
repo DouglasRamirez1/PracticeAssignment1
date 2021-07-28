@@ -12,15 +12,16 @@ public class Main
         m.setColor("black");
         m.setSpeed(160);
 
-        String message = "It's color is %s, the speed is %d. The number of wheels is %d. Does it have a windshield? %b";
+        System.out.println(
+            "I have a car! It is the color " + car.getColor()
+                    + ", the max speed is " + car.getSpeed()
+                    + ", the number of wheels it has is " + car.getNumOfWheels()
+                    + ", and it having a windshield is " + car.hasWindshield());
 
-        String carMessage = String.format(
-            "I have a car! " + message, car.getColor(), car.getSpeed(), car.getNumOfWheels(), car.hasWindshield());
-
-        String motorcycleMessage = String.format(
-            "I have a motorcycle! " + message, m.getColor(), m.getSpeed(), m.getNumOfWheels(), m.hasWindshield());
-
-        System.out.println(carMessage);
-        System.out.println(motorcycleMessage);
+        System.out.println(
+                "I have a motorcycle! It is the color " + m.getColor()
+                        + ", the max speed is " + m.getSpeed()
+                        + ", the number of wheels it has is " + m.getNumOfWheels()
+                        + ", and it having a windshield is " + m.hasWindshield());
     }
 }
