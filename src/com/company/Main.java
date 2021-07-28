@@ -6,7 +6,7 @@ public class Main
     {
         Year y = new Year();
         Color c = new Color();
-        brand b = new brand();
+        Brand b = new Brand();
         Type t = new Type();
         System.out.println("My vehicle is a " + t.getType()
                 + " from the year " + y.getYear()

@@ -1,6 +1,6 @@
 package com.company;
 
-public class brand extends Main{
+public class Brand extends Main{
     public String getBrand(){
         String brand = "Ford";
         return brand;
